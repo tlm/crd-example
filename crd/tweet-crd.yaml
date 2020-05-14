@@ -1,0 +1,11 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: tweets.crdexample.tlm.dev
+spec:
+  group: crdexample.tlm.dev
+  version: v1
+  names:
+    kind: Tweet
+    plural: tweets
+  scope: Namespaced

@@ -1,0 +1,7 @@
+apiVersion: crdexample.tlm.dev/v1
+kind: Tweet
+metadata:
+  name: example-tweet
+  namespace: default
+spec:
+  message: "Hello Juju"
